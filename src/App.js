@@ -32,9 +32,19 @@ class App extends Component {
   };
 
   render() {
+    const style = {
+      backgroundColor: "#fff",
+      border: "1px solid blue",
+      padding: 8,
+      cursor: "pointer"
+    };
+
     return (
       <div className="App">
-        <button onClick={() => this.switcNameHandler("Maximilian")}>
+        <button
+          style={style}
+          onClick={() => this.switcNameHandler("Maximilian")}
+        >
           Switch Name
         </button>
         <Person
