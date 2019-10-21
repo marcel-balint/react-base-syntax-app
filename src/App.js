@@ -11,10 +11,20 @@ class App extends Component {
     ]
   };
 
+  switcNameHandler = () => {
+    this.setState({
+      persons: [
+        { name: "Maximilian", age: 25 },
+        { name: "Manuel", age: 69 },
+        { name: "Stephanie", age: 28 }
+      ]
+    });
+  };
+
   render() {
     return (
       <div className="App">
-        <button>Switch Name</button>
+        <button onClick={this.switcNameHandler}>Switch Name</button>
         <Person
           name={this.state.persons[0].name}
           age={this.state.persons[0].age}
