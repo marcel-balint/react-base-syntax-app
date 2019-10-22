@@ -1,4 +1,4 @@
-React Base Features & Syntax
+## React Base Features & Syntax
 
 This small app was built while learning the base features and syntax of _React_, this includes working with **lists**, **conditionals** and **styling** components and elements.
 
