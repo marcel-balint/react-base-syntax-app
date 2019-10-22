@@ -17,3 +17,6 @@
   color: #fff;
   cursor: pointer;
 }
+.Close:hover {
+  background-color: #19ade7;
+}
