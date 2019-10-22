@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./Person.css";
+import classes from "./Person.css";
 
 const Person = props => {
   return (
-    <div className="Person">
-      <span className="Close" onClick={props.click}>
+    <div className={classes.Person}>
+      <span className={classes.Close} onClick={props.click}>
         &#10006;
       </span>
       <p>
